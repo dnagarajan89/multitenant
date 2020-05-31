@@ -44,7 +44,7 @@ import com.mongodb.reactivestreams.client.MongoDatabase;
  * @since 2.2
  */
 public class ReactiveMongoDatabaseUtils {
-	private static String TENANT_KEY = "tenantId";
+	private static String TENANT_KEY = "crato-tenant-id";
 
 	/**
 	 * Check if the {@link ReactiveMongoDatabaseFactory} is actually bound to a
