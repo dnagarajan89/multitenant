@@ -1,0 +1,19 @@
+server:
+  port: 8060
+  
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:9000/cratoauth/jwks/.well-known/jwks.json
+  application:
+    admin:
+      enabled: false
+ # cloud:
+ #   gateway:
+  #    routes:
+#      - id: sample
+  #      uri: http://localhost:8083
+  #      predicates:
+    #    - Path=/rest/**
